@@ -13,8 +13,8 @@ class PersonTest {
         Person person=new Person(1L, "Mevlut", "Kaymaz");
         //then
         assertAll("Test prop set",
-                ()->assertEquals(person.getFirstName(), "Mevlut"),
-                ()->assertEquals(person.getLastName(), "Kaymaz")
+                ()->assertEquals("Mevlut", person.getFirstName()),
+                ()->assertEquals("Kaymaz", person.getLastName())
         );
     }    @Test
     void grouppedAssertionsFailed(){
