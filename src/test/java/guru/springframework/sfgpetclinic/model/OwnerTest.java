@@ -7,8 +7,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
 import static org.junit.jupiter.api.Assertions.*;
 
-@Tag("Model")
-class OwnerTest {
+class OwnerTest implements ModelTests{
 
     @Test
     void dependentAssertions(){
