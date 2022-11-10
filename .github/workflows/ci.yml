@@ -18,5 +18,8 @@ jobs:
       with:
         java-version: 17
 
+    - name: Test
+      run: mvn clean test --file pom.xml
+
     - name: Build project with Maven
       run: mvn -B package --file pom.xml
