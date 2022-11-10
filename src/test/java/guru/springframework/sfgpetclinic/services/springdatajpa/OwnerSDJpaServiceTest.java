@@ -46,4 +46,8 @@ class OwnerSDJpaServiceTest {
     @Test
     void deleteById() {
     }
+
+    @Test
+    void deleteById1() {
+    }
 }
